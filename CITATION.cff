@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "SMRC: Semi-supervised minimax risk classifiers"
+authors:
+  - family-names: Mazuelas
+    given-names: Santiago
+    affiliation: "BCAM-Basque Center for Applied Mathematics and IKERBASQUE-Basque Foundation for Science"
+repository-code: "https://github.com/mazuelas/SMRC"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Leveraging Supervised and Unsupervised Methods for Minimax Semi-supervised Learning"
+  authors:
+    - family-names: Mazuelas
+      given-names: Santiago
+  journal: "Information and Inference: A Journal of the IMA"
+  year: 2026
