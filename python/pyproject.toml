@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smrc"
+version = "1.0.0"
+description = "Semi-supervised minimax risk classifiers (SMRCs)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Santiago Mazuelas", email = "smazuelas@bcamath.org"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.21", "scipy>=1.7", "scikit-learn>=1.2"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+examples = ["matplotlib"]
+
+[project.urls]
+Repository = "https://github.com/mazuelas/SMRC"
+
+[tool.setuptools]
+packages = ["smrc"]
