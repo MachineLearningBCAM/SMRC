@@ -17,7 +17,7 @@ test = ["pytest"]
 examples = ["matplotlib"]
 
 [project.urls]
-Repository = "https://github.com/mazuelas/SMRC"
+Repository = "https://github.com/MachineLearningBCAM/SMRC"
 
 [tool.setuptools]
 packages = ["smrc"]
