@@ -1,6 +1,6 @@
 # Leveraging Supervised and Unsupervised Methods for Minimax Semi-supervised Learning
 
-[![tests](https://github.com/mazuelas/SMRC/actions/workflows/tests.yml/badge.svg)](https://github.com/mazuelas/SMRC/actions/workflows/tests.yml)
+[![tests](https://github.com/MachineLearningBCAM/SMRC/actions/workflows/tests.yml/badge.svg)](https://github.com/MachineLearningBCAM/SMRC/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This repository contains the code for **semi-supervised minimax risk classifiers (SMRCs)**, presented in
@@ -48,7 +48,7 @@ flowchart LR
 ### Installation
 
 ```bash
-git clone https://github.com/mazuelas/SMRC.git
+git clone https://github.com/MachineLearningBCAM/SMRC.git
 cd SMRC
 pip install ./python          # requires numpy, scipy, and scikit-learn
 ```
